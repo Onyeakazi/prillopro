@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800;700&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.9;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900 !important;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    color: #212a30;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar {
+    box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.navbar .navbar-nav li .nav-link:hover{
+    color:#1f90d1;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    background:-webkit-linear-gradient(#1f90d1,#472ae9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* HERO SECTION */
+.hero{
+    background:linear-gradient(rgba(31, 168, 209, 0.7),rgba(93, 42, 233, 0.781)), url(../img/hero.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.btn{
+    transition: all 0.4s ease;
+    padding: 10px 40px;
+}
+
+.btn-main{
+    background:linear-gradient(to right,#1f90d1,#472ae9);
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.video-btn{
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(to right,#1f90d1,#472ae9);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.video-btn i {
+    font-size: 40px;
+}
+
+.btn:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+
+/* SERVICES */
+.section-intro{
+    margin-top:80px ;
+    margin-bottom: 40px;
+}
+
+.section-intro .divider{
+    height: 3px;
+    width: 90px;
+    background:linear-gradient(to right,#1f90d1,#472ae9);
+    margin: auto;
+}
+
+.service .service-img{
+    position: relative;
+}
+
+.service .service-img .icon {
+    width: 90px;
+    height: 90px;
+    background:linear-gradient(to right,#1f90d1,#472ae9);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 33%;
+    left: 35%;
+    transform: translateX(10%);
+}
+
+.service .service-img .icon i{
+    font-size: 36px;
+}
+
+/* ABOUT */
+.about{
+    background:linear-gradient(rgba(31, 168, 209, 0.7),rgba(93, 42, 233, 0.781)), url(../img/hero2.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.feature{
+    margin-bottom: 40px;
+}
+
+.feature i{
+    background:-webkit-linear-gradient(#1f90d1,#472ae9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+#counters{
+    background:linear-gradient(rgba(31, 168, 209, 0.7),rgba(93, 42, 233, 0.781)), url(../img/hero3.jpg) fixed;
+}
+
+.counters i{
+    margin-top: 40%;
+}
+
+.review{
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 18px;
+}
+
+.review .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.review .stars{
+    color: orange;
+}
+
+.contact {
+    background:linear-gradient(rgba(31, 168, 209, 0.7),rgba(93, 42, 233, 0.781)), url(../img/hero2.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+}
+
+form input .form-control{
+    height: 54px;
+}
+
+form .form-control{
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+}
+
+form .form-control::placeholder{
+    color: #fff;
+}
+
+form .form-control:focus{
+    color: #fff;
+    background: transparent;
+}
+
+footer{
+    background:linear-gradient(to right,#1f90d1,hsl(249, 94%, 43%));
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
